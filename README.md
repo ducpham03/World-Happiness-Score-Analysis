@@ -17,5 +17,5 @@ Top countries have highest and lowest Happiness Score. Correlation between Happi
 - Read the dataset
 - I changed the names of variables to easier name for using
 - Top 5 countries which have highest and lowest Happiness Score:
-      - Top 5 highest countries with highest Happiness Score
+      \n- Top 5 highest countries with highest Happiness Score
 - 
