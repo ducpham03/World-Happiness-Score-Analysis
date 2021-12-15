@@ -37,3 +37,4 @@ Top countries have highest and lowest Happiness Score. Correlation between Happi
 - mean, geom_point, geom_smooth, cor, lm
 
                                                         ~~ Thank you ~~ 
+                                                        
