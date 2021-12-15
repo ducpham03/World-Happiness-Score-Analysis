@@ -31,3 +31,9 @@ Top countries have highest and lowest Happiness Score. Correlation between Happi
 - 5. Predict a Happiness Score of a country with some numeric values:
 <br />      + Happiness Score = ...
 
+4. Methods I used in the analysis:
+- Tidyverse package
+- rename, head, tail, mutate, ggplot, geom_bar, coord_flip, xlab, theme_bw, data.frame, rbind
+- mean, geom_point, geom_smooth, cor, lm
+
+~~ Thank you ~~ 
