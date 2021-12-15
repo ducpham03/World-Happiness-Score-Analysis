@@ -27,5 +27,7 @@ Top countries have highest and lowest Happiness Score. Correlation between Happi
 <br />      + Besides, the graph show the linear model of those plots.
 - 4. Overall Linear Regression of Happiness Score:
 <br />      + lm(Score~.-Ranking-Country,happiness). I put the Ranking and Country variables out because it does not affect the Linear Model.
-<br />      + y = 1.7952 + 0.7754*GDP_per_capita + 1.1242*Social_support + 1.0781*Health_life_expectancy + 1.4548*Freedom_to_make_life_choices + 0.4898*Generosity +        0.9723*Perception_of_corruptio
+<br />      + The equation of the Happiness Score: y = ...
+- 5. Predict a Happiness Score of a country with some numeric values:
+<br />      + Happiness Score = ...
 
