@@ -20,10 +20,12 @@ Top countries have highest and lowest Happiness Score. Correlation between Happi
 <br />      + Top 5 highest countries with highest Happiness Score: head(happiness, n=5)
 <br />      + Top 5 highest countries with lowest Happiness Score: tail(happiness, n=5)
 <br />      + Draw a graph of those 10 countries. I did create a new dataframe that only has those 10 countries
-- 2. Calculate the Average Happiness Score of all countries. 
+- 2. Average Happiness Score of all countries:
 <br />      + I did add a new feature called 'level' to see if that country is above or below the Average Happiness Score.
-- 3. Draw a plot of correlation between Happiness Score and GDP per capita, Social Support and Health life expectancy. 
+- 3. Plot of correlation between Happiness Score and GDP per capita, Social Support and Health life expectancy:
 <br />      + I also calculate the correlation coefficients of those 3 graphs. 
 <br />      + Besides, the graph show the linear model of those plots.
-- 
+- 4. Overall Linear Regression of Happiness Score:
+<br />      + lm(Score~.-Ranking-Country,happiness). I put the Ranking and Country variables out because it does not affect the Linear Model.
+<br />      + y = 1.7952 + 0.7754*GDP_per_capita + 1.1242*Social_support + 1.0781*Health_life_expectancy + 1.4548*Freedom_to_make_life_choices + 0.4898*Generosity + 0.9723*Perception_of_corruption
 
