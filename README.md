@@ -36,4 +36,4 @@ Top countries have highest and lowest Happiness Score. Correlation between Happi
 - rename, head, tail, mutate, ggplot, geom_bar, coord_flip, xlab, theme_bw, data.frame, rbind
 - mean, geom_point, geom_smooth, cor, lm
 
-                                                                            ~~ Thank you ~~ 
+                                                                    ~~ Thank you ~~ 
