@@ -21,7 +21,9 @@ Top countries have highest and lowest Happiness Score. Correlation between Happi
 <br />      + Top 5 highest countries with lowest Happiness Score: tail(happiness, n=5)
 <br />      + Draw a graph of those 10 countries. I did create a new dataframe that only has those 10 countries
 - 2. Calculate the Average Happiness Score of all countries. 
-<br />I did add a new feature called 'level' to see if that country is above or below the Average Happiness Score.
-- Draw a plot of correlation between Happiness Score and GDP per capita, Social Support and Health life expectancy. I also calculate the correlation coefficients of those 3 graphs. Besides, the graph show the linear model of those plots.
+<br />      + I did add a new feature called 'level' to see if that country is above or below the Average Happiness Score.
+- 3. Draw a plot of correlation between Happiness Score and GDP per capita, Social Support and Health life expectancy. 
+<br />      + I also calculate the correlation coefficients of those 3 graphs. 
+<br />      + Besides, the graph show the linear model of those plots.
 - 
 
