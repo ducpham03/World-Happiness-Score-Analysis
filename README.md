@@ -15,28 +15,27 @@ The Happiness Score dataset consists of 156 observations and 9 variables, includ
 
 **To answer RQ2, the following steps were taken:**
 
-- The correlation coefficients between Happiness Score and GDP per capita, Social support, and Health life expectancy were calculated using the cor() function.
+- The correlation coefficients between Happiness Score and factors such as GDP per capita, Social support, and Health life expectancy were calculated using the cor() function.
 - A linear regression model was fitted to the Happiness Score dataset to predict the Happiness Score as a function of GDP per capita, Social support, and Health life expectancy using the lm() function.
 
 **Results**
 
-- RQ1: The top 5 countries with the highest Happiness Scores are Finland, Denmark, Iceland, Switzerland, and Netherlands. The top 5 countries with the lowest Happiness Scores are Afghanistan, Burundi, Central African Republic, South Sudan, and Yemen.
-
-- RQ2: The correlation coefficients between Happiness Score and GDP per capita, Social support, and Health life expectancy are 0.743, 0.783, and 0.760, respectively. This indicates that there is a strong positive correlation between Happiness Score and these factors.
+- RQ1: The top 5 countries with the highest Happiness Scores are Finland, Denmark, Norway, Iceland, and Netherlands. The top 5 countries with the lowest Happiness Scores are Rwanda, Tanzania, Afghanistan, Central African Republic, and South Sudan. 
+- RQ2: The correlation coefficients between Happiness Score and factors such as GDP per capita, Social support, Health life expectancy ... This indicates that there is a strong positive correlation between Happiness Score and these factors.
 
 The linear regression model fitted to the Happiness Score dataset is as follows:
 
-Happiness Score = -10.198 + 0.004 * GDP per capita + 1.025 * Social support + 0.123 * Health life expectancy
+Happiness Score = 1.7952 + 0.7754 GDP_per_capita + 1.1242 Social_support + 1.0781 Health_life_expectancy + 1.4548 Freedom_to_make_life_choices + 0.4898 Generosity + 0.9723 Perception_of_corruption
 
-This model explains 76.5% of the variance in Happiness Score. The coefficients of GDP per capita, Social support, and Health life expectancy are all statistically significant, indicating that these factors are significantly associated with Happiness Score.
+This model explains the variance in the Happiness Score. The coefficients of GDP per capita, Social support, Health life expectancy, Freedom to make life choices, Generosity, and Perception of corruption are all statistically significant, indicating that these factors are significantly associated with the Happiness Score.
 
 **Conclusion**
 
-The findings of this study suggest that GDP per capita, Social support, and Health life expectancy are all important factors associated with Happiness Score. The linear regression model can be used to predict Happiness scores as a function of these factors.
+The findings of this study suggest that factors like GDP per capita, Social support, and Health life expectancy are all important factors associated with the Happiness Score. The linear regression model can be used to predict Happiness scores as a function of these factors.
 
-Recommendations
+**Recommendations**
 
-Future research could investigate the causal relationship between Happiness Score and GDP per capita, Social support, and Health life expectancy. Additionally, future research could explore other factors that may be associated with the Happiness Score, such as education, employment, and social safety nets.
+Future research could investigate the causal relationship between Happiness Score and GDP per capita, Social support, Health life expectancy... Additionally, future research could explore other factors that may be associated with the Happiness Score, such as education, employment, and social safety nets.
 
                                                         
                                                         
