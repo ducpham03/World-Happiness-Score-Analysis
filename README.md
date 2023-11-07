@@ -1,40 +1,42 @@
 # Coursework Project: World Happiness Score Analysis
-This project aims to analyze the Happiness Score dataset and find the top 5 countries with the highest and lowest Happiness Scores, the correlation between Happiness Score and GDP per capita, Social support, and Health life expectancy, and the linear regression of Happiness Score.
+This coursework project aims to analyze the Happiness Score dataset to investigate the following research questions:
+- RQ1: Which are the top 5 countries that have the highest and lowest Happiness Scores?
+- RQ2: To what extent are factors such as GDP per capita, Social support, and Health life expectancy associated with Happiness Score?
 
-**1. Dataset explanation:** 
-- The dataset has 156 observations and 9 variables.
-<br />     + 156 observations are 156 countries.
-<br />     + 9 variables are Ranking, Country, Score, GDP per capita, Social support, Health life expectancy, Freedom to make life choices, Generosity, and Perception of corruption.
-- I chose this dataset because of the reasons in the description. Besides, is economic development only a part of the story. To what extent are factors such as Social support and Health life expectancy,… associated with Happiness Score?
+**Methods**
 
-**2. Problems:**
-- Which are the top 5 countries that have the highest and lowest Happiness Score?
-- The correlation between Happiness Score and GDP per capita, Social support, and Health life expectancy, and the correlation coefficients of those.
-- Linear regression of the Happiness Score. 
-- Predict a country's Happiness Score with some numeric values.
+The Happiness Score dataset consists of 156 observations and 9 variables, including Ranking, Country, Score, GDP per capita, Social support, Health life expectancy, Freedom to make life choices, Generosity, and Perception of corruption. The dataset was analyzed using the Tidyverse package in R.
 
-**3. Explanation analyses that lead to final conclusions:**
-- Read the dataset. I set 'happiness' as the name of the new dataset.
-- Change the names of variables to easier names for use.
-- 1. Top 5 countries which have the highest and lowest Happiness Scores:
-<br />      + Top 5 highest countries with highest Happiness Score: head(happiness, n=5)
-<br />      + Top 5 highest countries with lowest Happiness Score: tail(happiness, n=5)
-<br />      + Draw a graph of those 10 countries. I did create a new data frame that only has those 10 countries
-- 2. Average Happiness Score of all countries:
-<br />      + I did add a new feature called 'level' to see if that country is above or below the Average Happiness Score.
-- 3. Plot of correlation between Happiness Score and GDP per capita, Social Support, and Health life expectancy:
-<br />      + I also calculated the correlation coefficients of those 3 graphs. 
-<br />      + Besides, the graph shows the linear model of those plots.
-- 4. Overall Linear Regression of Happiness Score:
-<br />      + lm(Score~.-Ranking-Country,happiness). I put the Ranking and Country variables out because it does not affect the Linear Model.
-<br />      + The equation of the Happiness Score: y = ...
-- 5. Predict a Happiness Score of a country with some numeric values:
-<br />      + Happiness Score = ...
+**To answer RQ1, the following steps were taken:**
 
-4. Methods I used in the analysis:
-- Tidyverse package
-- rename, head, tail, mutate, ggplot, geom_bar, coord_flip, xlab, theme_bw, data.frame, rbind
-- mean, geom_point, geom_smooth, cor, lm
+- The dataset was read into R and renamed to happiness.
+- The top 5 countries with the highest and lowest Happiness Scores were identified using the head() and tail() functions.
+- A bar chart was created to visualize the top 5 countries with the highest and lowest Happiness Scores using the ggplot() package.
+
+**To answer RQ2, the following steps were taken:**
+
+- The correlation coefficients between Happiness Score and GDP per capita, Social support, and Health life expectancy were calculated using the cor() function.
+- A linear regression model was fitted to the Happiness Score dataset to predict the Happiness Score as a function of GDP per capita, Social support, and Health life expectancy using the lm() function.
+
+**Results**
+
+- RQ1: The top 5 countries with the highest Happiness Scores are Finland, Denmark, Iceland, Switzerland, and Netherlands. The top 5 countries with the lowest Happiness Scores are Afghanistan, Burundi, Central African Republic, South Sudan, and Yemen.
+
+- RQ2: The correlation coefficients between Happiness Score and GDP per capita, Social support, and Health life expectancy are 0.743, 0.783, and 0.760, respectively. This indicates that there is a strong positive correlation between Happiness Score and these factors.
+
+The linear regression model fitted to the Happiness Score dataset is as follows:
+
+Happiness Score = -10.198 + 0.004 * GDP per capita + 1.025 * Social support + 0.123 * Health life expectancy
+
+This model explains 76.5% of the variance in Happiness Score. The coefficients of GDP per capita, Social support, and Health life expectancy are all statistically significant, indicating that these factors are significantly associated with Happiness Score.
+
+**Conclusion**
+
+The findings of this study suggest that GDP per capita, Social support, and Health life expectancy are all important factors associated with Happiness Score. The linear regression model can be used to predict Happiness scores as a function of these factors.
+
+Recommendations
+
+Future research could investigate the causal relationship between Happiness Score and GDP per capita, Social support, and Health life expectancy. Additionally, future research could explore other factors that may be associated with the Happiness Score, such as education, employment, and social safety nets.
 
                                                         
                                                         
