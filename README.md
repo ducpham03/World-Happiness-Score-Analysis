@@ -1,4 +1,4 @@
-# Coursework Project: World Happiness Score Analysis
+# Coursework Project: World Happiness Score Analysis by R
 This coursework project aims to analyze the Happiness Score dataset to investigate the following research questions:
 - RQ1: Which are the top 5 countries that have the highest and lowest Happiness Scores?
 - RQ2: To what extent are factors such as GDP per capita, Social support, Health life expectancy, etc... associated with Happiness Score?
