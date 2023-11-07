@@ -25,8 +25,8 @@ The Happiness Score dataset consists of 156 observations and 9 variables, includ
 
 The linear regression model fitted to the Happiness Score dataset is as follows:
 
-**Happiness Score** = 1.7952 + 0.7754 _GDP_per_capita_ + 1.1242 _Social_support_ + 1.0781 _Health_life_expectancy_ + 1.4548 _Freedom_to_make_life_choices_ + 0.4898 _Generosity_ + 0.9723 _Perception_of_corruption
-_
+**Happiness Score** = 1.7952 + 0.7754 _GDP_per_capita_ + 1.1242 _Social_support_ + 1.0781 _Health_life_expectancy_ + 1.4548 _Freedom_to_make_life_choices_ + 0.4898 _Generosity_ + 0.9723 _Perception_of_corruption_
+
 This model explains the variance in the Happiness Score. The coefficients of GDP per capita, Social support, Health life expectancy, Freedom to make life choices, Generosity, and Perception of corruption are all statistically significant, indicating that these factors are significantly associated with the Happiness Score.
 
 **Conclusion**
